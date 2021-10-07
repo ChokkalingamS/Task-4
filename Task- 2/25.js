@@ -1,0 +1,25 @@
+// Given two numbers and perform all arithmetic operations.
+let a=5;
+let b=2;
+let add=a+b;
+let sub=a-b;
+let multiply=a*b;
+let division=a/b;
+let exponentiation=a**b;
+let modulus=a%b;
+let c=a++;
+let postincrement=a;
+let d=b--;
+let postdecrement=b;
+let preincrement=++a;
+let predecrement=--b;
+console.log(`Add=${add}`);
+console.log(`sub=${sub}`);
+console.log(`multiply=${multiply}`);
+console.log(`division=${division}`);
+console.log(`exponentiation=${ exponentiation}`);
+console.log(`modulus=${modulus}`);
+console.log(`postincrement=${postincrement}`);
+console.log(`postdecrement=${postdecrement}`);
+console.log(`preincrement=${preincrement}`);
+console.log(`predecrement=${predecrement}`);
